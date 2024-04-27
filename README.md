@@ -8,3 +8,6 @@ pip install
 
 #Tests
 tox -e test_service
+
+#generate product
+python setup.py sdist
