@@ -2,12 +2,12 @@
 
 Proyecto de gestion de musica
 
-#Requerimentos
+# Requerimentos
 pip install tox
-pip install
+pip install pytest
 
-#Tests
+# Tests
 tox -e test_service
 
-#generate product
+# Generate product
 python setup.py sdist
