@@ -1,6 +1,6 @@
 pipeline {
     agent {
-	label: 'python'
+	label 'python'
 	} 
     
     stages {
@@ -39,7 +39,7 @@ pipeline {
         
         stage('library generation') {
 	    when {
-		branch: 'main'
+		branch 'main'
 	    }
             steps {
                 sh '''python setup.py sdist'''
