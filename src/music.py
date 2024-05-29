@@ -41,6 +41,8 @@ while opcion != 5:
     elif opcion == 2:
         listar_canciones(lista_canciones)
     elif opcion == 3:
+
+
         eliminar_cancion(lista_canciones)
     elif opcion == 4:
         modificar_cancion(lista_canciones)

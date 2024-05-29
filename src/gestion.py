@@ -4,11 +4,11 @@ def anadir_cancion(lista_canciones):
     titulo = input(" Introduce el título de la canción: ")
     interprete = input(" Introduce el interprete de la canción: ")
     duracion_segundos = int(input(" Introduce la duración de la canción en segundos: "))
-    estilo_musical = input(" Introduce el estilo musical de la canción en segundos: ")
+    estilo_musical = input(" Introduce el estilo musical de la canción: ")
     calificacion = input(" Introduce la calificación de la canción con asteriscos de 1 a 5. Un asterisco es la calificación más baja y 5 asteriscos la más alta: ")
     nueva_cancion = [titulo, interprete, duracion_segundos, estilo_musical, calificacion]
     lista_canciones.append(nueva_cancion)
-    print("Canción añadida correctamente.")
+    print("Canción añadida correctamente. ")
     for cancion in lista_canciones:
         print("titulo: ", cancion[0])
         print("interprete: ", cancion [1])
