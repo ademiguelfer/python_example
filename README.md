@@ -11,3 +11,5 @@ tox -e test_service
 
 # Generate product
 python setup.py sdist
+
+test
